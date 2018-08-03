@@ -10,6 +10,7 @@ public class ImplInterface1 implements ExempleInterface {
 
 	public int maximum() {
 		return(Math.max(v1, v2));
+		
 	}
 
 	public int getV1() {
