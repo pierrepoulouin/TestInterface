@@ -14,12 +14,12 @@ public class Hoverboard implements IsLandVehicle, IsSeaVessel {
 
 
 	public void enterLand () {
-		System.out.println("Wellcome to the Land");
+		System.out.println("Welcome to the Land");
 
 	}
 
 	public void enterSea() {
-		System.out.println("Wellcome to the sea");
+		System.out.println("Welcome to the sea");
 	}
 	//Génération des getters/setters
 
