@@ -4,6 +4,7 @@ public class ImplInterface1 implements ExempleInterface {
 	public int v1;
 	public int v2;
 	
+	//declaration des methodes
 	public int minimum() {
 		return(Math.min(v1, v2));
 	}

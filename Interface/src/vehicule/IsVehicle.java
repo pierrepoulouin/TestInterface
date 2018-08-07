@@ -1,6 +1,7 @@
 package vehicule;
 
 public interface IsVehicle {
+	
 public String getName();
 public void setName(String value);
 

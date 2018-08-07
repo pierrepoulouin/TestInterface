@@ -4,7 +4,7 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		//Creation d'une instance note de la Classe ImplInterface1
+		//Creation d'une instance note et note2 de la Classe ImplInterface1/ImplInterface2
 		ImplInterface1 note = new ImplInterface1();
 		ImplInterface2 note2 = new ImplInterface2(); 
 
@@ -21,7 +21,7 @@ public class Application {
 		int noteMinimum2 = note2.minimum();
 		//Appelle de la methode maximum
 		int noteMaximum = note.maximum();
-		int noteMaximum2 = note.maximum();
+		int noteMaximum2 = note2.maximum();
 		System.out.println("Voici un exemple des méthodes de la Classe ImplInterface1 : ");
 		System.out.println(noteMinimumn);
 		System.out.println(noteMaximum);
